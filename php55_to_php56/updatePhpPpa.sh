@@ -2,7 +2,6 @@
 
 sudo LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
 sudo apt-get update
-
 sudo apt-get install php5.6-fpm
 # now change the socket path in your nginx/apache2 configuration
 # from (/var)/run/php5-fpm.sock to /run/php/php5.6-fpm.sock
